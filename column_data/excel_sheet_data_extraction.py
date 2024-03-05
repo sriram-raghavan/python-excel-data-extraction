@@ -1,6 +1,7 @@
 # This program needs pandas and openpyxl Python libraries installed to run.
 # Sample data from Tags column
 # costcenter:123.4505.87678, env:prd, compliance:none, appid:7896, dataclass:restricted, businessunit:cbu, appname:channel_it_system_of_enablement_layer, appowner:somebody@gmail.com, pii:true, appclass:vital, canumber:23it198547, otl:567907, sharedservices:no, triageticket:cps-9945
+# 7896 from appid and somebody@gmail.com from appowner will be extracted and written under "AppId" and "AppOwner" respectively.
 
 import pandas as pd
 
